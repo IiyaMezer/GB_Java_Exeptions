@@ -1,4 +1,4 @@
-public class Task1_2 {
+public class Task1 {
 
 
     /**Основная логика с пробрасываеинем исключения при нулевом знаменателе
@@ -20,7 +20,6 @@ public class Task1_2 {
             System.out.println(e.getMessage());
         }
     }
-
     public static void getArrayNode(int[] array , int nodeNum){
          try {
              System.out.println(array[nodeNum]);
@@ -28,10 +27,6 @@ public class Task1_2 {
          catch (ArrayIndexOutOfBoundsException e) {
              System.out.println(e.getMessage());
          }
-
     }
-
-
-
-    }
+}
 
